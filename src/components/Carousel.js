@@ -1,8 +1,8 @@
 import React from 'react';
-import banner1 from '../assets/banner/banner-1.jpg'
-import banner2 from '../assets/banner/banner-2.jpg'
-import banner3 from '../assets/banner/banner-3.jpg'
-import banner5 from '../assets/banner/banner-5.jpg'
+import banner1 from '../assets/banner/banner-1.jpg';
+import banner2 from '../assets/banner/banner-2.jpg';
+import banner3 from '../assets/banner/banner-3.jpg';
+import banner5 from '../assets/banner/banner-5.jpg';
 
 const Carousel = () => {
 
@@ -40,7 +40,7 @@ const Carousel = () => {
                     <img src={banner5} className="w-full object-cover" alt='banner-4' />
                 </div>
             </div>
-            <div className="flex justify-center w-full py-2 gap-2">
+            <div className="flex justify-center w-full py-3 gap-2">
                 <a href="#item1" className="slideBTN btn btn-xs">1</a>
                 <a href="#item2" className="slideBTN btn btn-xs">2</a>
                 <a href="#item3" className="slideBTN btn btn-xs">3</a>
